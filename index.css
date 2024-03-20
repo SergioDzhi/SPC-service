@@ -23,7 +23,7 @@
 }
 
 .page {
-  margin: 0;
+  margin: 0 auto;
   max-width: 1120px;
   max-height: 535px;
 }
