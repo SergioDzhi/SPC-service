@@ -415,13 +415,13 @@
 }
 @media screen and (max-width: 320px) {
   .navigation {
-    overflow: scroll;
+    overflow-x: scroll;
     padding-left: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .navigation {
-    overflow: scroll;
+    overflow-x: scroll;
     padding-left: 24px;
   }
 }
