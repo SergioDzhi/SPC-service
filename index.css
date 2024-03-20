@@ -427,7 +427,6 @@
 @media screen and (min-width: 1120px) {
   .navigation {
     display: flex;
-    overflow: scroll;
   }
 }
 
