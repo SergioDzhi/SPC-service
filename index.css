@@ -415,19 +415,19 @@
 }
 @media screen and (max-width: 320px) {
   .navigation {
-    overflow: hidden;
+    overflow: scroll;
   }
 }
 @media screen and (min-width: 768px) {
   .navigation {
-    overflow: hidden;
+    overflow: scroll;
   }
 }
 
 @media screen and (min-width: 1120px) {
   .navigation {
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
   }
 }
 
