@@ -416,17 +416,20 @@
 @media screen and (max-width: 320px) {
   .navigation {
     overflow: scroll;
+    padding-left: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .navigation {
     overflow: scroll;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width: 1120px) {
   .navigation {
     display: flex;
+    padding-left: 32px;
   }
 }
 
@@ -440,7 +443,7 @@
     margin: 0;
     align-items: center;
     display: inline-flex;
-    padding-left: 16px;
+
     height: 40px;
     font-size: 16px;
     line-height: 24px;
@@ -457,7 +460,7 @@
     padding: 0;
     align-items: center;
     display: inline-flex;
-    margin: 0 24px;
+
     height: 40px;
     font-size: 16px;
     line-height: 24px;
@@ -472,13 +475,12 @@
   .navigation__item {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    padding: 0;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.2px;
 
     flex-wrap: wrap;
-    padding-left: 32px;
     column-gap: 32px;
   }
 }
