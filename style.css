@@ -261,13 +261,18 @@ a {
   display: flex;
   margin: 0;
   overflow-x: scroll;
-  overflow: hidden;
+  overflow-y: hidden;
   padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .navigation {
     padding-left: 24px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .navigation {
+    overflow: hidden;
   }
 }
 
