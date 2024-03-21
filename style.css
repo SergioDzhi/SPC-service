@@ -207,7 +207,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-left: 450px;
-    gap: 32px;
+    gap: 24px;
     white-space: nowrap;
   }
 }
