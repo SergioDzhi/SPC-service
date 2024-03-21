@@ -287,33 +287,15 @@ a {
 
 .main__subtitle {
   font-family: "TT Lakes Bold";
+  margin: 0;
+  font-size: 28px;
+  line-height: 40px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .main__subtitle {
-    margin: 0;
-    /* border: 1px solid black; */
-
-    font-size: 28px;
-    line-height: 40px;
     max-width: 288px;
     letter-spacing: 0.6px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .main__subtitle {
-    margin: 0;
-    font-size: 28px;
-    line-height: 40px;
-  }
-}
-
-@media screen and (min-width: 1120px) {
-  .main__subtitle {
-    margin: 0;
-    font-size: 28px;
-    line-height: 40px;
   }
 }
 
@@ -328,12 +310,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .main__title-highlight {
-    max-height: 40px;
-  }
-}
-
-@media screen and (min-width: 1120px) {
   .main__title-highlight {
     max-height: 40px;
   }
@@ -506,12 +482,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .navigation__item-text5 {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 1120px) {
   .navigation__item-text5 {
     display: block;
   }
