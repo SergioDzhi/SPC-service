@@ -19,13 +19,187 @@ a {
   color: black;
 }
 
-.page {
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 1120px;
+a:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
 }
 
-.header {
+.page {
+  margin: 0;
+  padding: 0;
+  font-family: "TT Lakes Regular";
+  max-width: 320px;
+  max-height: 1024px;
+  /* position: relative; */
+}
+
+.sidebar {
+  /* position: absolute;
+  left: 0; */
+  padding-left: 24px;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+
+
+}
+
+.sidebar__logo {
+  margin-left: 17px;
+  background: url("./image/CPSGroup.png") no-repeat;
+  width: 97px;
+  height: 51px;
+}
+
+.sidebar__burger {
+  background: url("./image/burgerNew.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+
+}
+
+
+.sidebar__search {
+  background: url("./image/search.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 79px;
+  border: none;
+}
+
+.sidebar__burger,
+.sidebar__search,
+.button-phone,
+.button-chat,
+.button-profile:hover {
+  scale: 1.2;
+  transition: scale 0.3s;
+
+}
+
+.sidebar__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.sidebar__item {
+  margin-top: 32px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+
+
+}
+
+
+
+.sidebar__item:first-of-type {
+  margin-top: 46px;
+
+}
+
+.sidebar__item_active>a {
+  color: #7E7E82;
+}
+
+.sidebar__item:first-child:before {
+  content: "";
+  background: url("./image/highlight.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 110px;
+  height: 32px;
+  width: 4px;
+
+}
+
+
+
+.sidebar__contacts {
+  margin-top: 268px;
+}
+
+.sidebar__button {
+  display: flex;
+  column-gap: 16px;
+  padding: 0;
+  margin-bottom: 16px;
+  margin-top: 0;
+  list-style: none;
+}
+
+
+
+
+.button-phone {
+  width: 40px;
+  height: 40px;
+  background: url("./image/call.png") no-repeat;
+}
+
+.button-chat {
+  width: 40px;
+  height: 40px;
+  background: url("./image/chat.png") no-repeat;
+}
+
+.button-profile {
+  width: 40px;
+  height: 40px;
+  background: url("./image/profile.png") no-repeat;
+}
+
+.sidebar__mail {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+
+
+}
+
+.sidebar__phone {
+  font-weight: bold;
+  margin-top: 16px;
+
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+
+
+}
+
+.sidebar__languages {
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  font-weight: 600;
+
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.sidebar__languages_active {
+  color: #7E7E82;
+
+}
+
+
+
+
+
+
+
+
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -442,4 +616,4 @@ a {
   .header {
     display: none;
   }
-}
+} */
