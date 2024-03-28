@@ -54,6 +54,12 @@ a:hover {
   height: 51px;
 }
 
+.sidebar__logo:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+
 .sidebar__burger {
   background: url("./image/burgerNew.png") no-repeat;
   width: 40px;
@@ -61,6 +67,12 @@ a:hover {
   border: none;
 
 }
+
+.sidebar__burger:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
 
 
 .sidebar__search {
@@ -71,6 +83,10 @@ a:hover {
   border: none;
 }
 
+.sidebar__search:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
 
 
 .sidebar__menu {
@@ -136,16 +152,34 @@ a:hover {
   background: url("./image/call.png") no-repeat;
 }
 
+.button-phone:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+
+}
+
 .button-chat {
   width: 40px;
   height: 40px;
   background: url("./image/chat.png") no-repeat;
 }
 
+.button-chat:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+
+}
+
 .button-profile {
   width: 40px;
   height: 40px;
   background: url("./image/profile.png") no-repeat;
+}
+
+.button-profile:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+
 }
 
 .sidebar__mail {
