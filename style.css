@@ -30,6 +30,9 @@ a:hover {
   font-family: "TT Lakes Regular";
   max-width: 320px;
   max-height: 1024px;
+  box-shadow: 16px 0px 52px 0px #0E185033,
+    -2px 0px 4px 0px #454F7E05;
+
   /* position: relative; */
 }
 
